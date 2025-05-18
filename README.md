@@ -1,6 +1,6 @@
 # Velocímetro Plus
 
-<img src="screenshots/velocimetroplus.png" alt="Velocímetro Plus App" width="700" style="display:block; margin:auto;"/>
+<img src="assets/screenshots/velocimetroplus.png" alt="Velocímetro Plus App" width="700" style="display:block; margin:auto;"/>
 
 ## Sobre o app
 
@@ -39,7 +39,7 @@ Ele foi pensado para quem quer entender de verdade a qualidade da sua conexão a
 
 | Tela Inicial | Testando | Contagem Regressiva | Histórico |
 |--------------|----------|----------------------|-----------|
-| ![](screenshots/1.png) | ![](screenshots/2.png) | ![](screenshots/3.png) | ![](screenshots/4.png) |
+| ![](assets/screenshots/1.png) | ![](assets/screenshots/2.png) | ![](assets/screenshots/3.png) | ![](assets/screenshots/4.png) |
 
 ---
 
