@@ -1,16 +1,52 @@
-# velocimetroplus
+# Velocímetro Plus
 
-A new Flutter project.
+<img src="screenshots/velocimetroplus.png" alt="Velocímetro Plus App" width="700" style="display:block; margin:auto;"/>
 
-## Getting Started
+## Sobre o app
 
-This project is a starting point for a Flutter application.
+O **Velocímetro Plus** é um app feito em Flutter que monitora sua internet de forma automática. A cada 2 minutos, ele faz um novo teste de velocidade (download e upload) e salva os resultados localmente — mesmo se o app estiver em segundo plano.
 
-A few resources to get you started if this is your first Flutter project:
+Ele foi pensado para quem quer entender de verdade a qualidade da sua conexão ao longo do tempo.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## O que ele faz
+
+- Testa a velocidade da internet (download e upload)
+- Funciona automaticamente a cada 2 minutos
+- Continua rodando em segundo plano
+- Salva os últimos 50 resultados direto no celular
+- Mostra gráficos e históricos detalhados
+- Tem uma interface escura e moderna
+- Usa BLoC pra manter tudo organizado por trás
+
+---
+
+## Tecnologias que usei
+
+- **Flutter** – pra fazer o app inteiro
+- `flutter_speed_test_plus` – faz os testes de velocidade
+- `workmanager` – permite rodar em background
+- `flutter_bloc` – controle de estado
+- `shared_preferences` – salva os dados localmente
+- `syncfusion_flutter_gauges` – velocímetro estilo gauge
+- `fl_chart` – gráficos bonitos e simples
+- `connectivity_plus` – verifica se há internet antes de testar
+
+---
+
+## Prints do app
+
+| Tela Inicial | Testando | Contagem Regressiva | Histórico |
+|--------------|----------|----------------------|-----------|
+| ![](screenshots/1.png) | ![](screenshots/2.png) | ![](screenshots/3.png) | ![](screenshots/4.png) |
+
+---
+
+## Como rodar
+
+```bash
+git clone https://github.com/marcossantana03/velocimetroplus.git
+cd velocimetroplus
+flutter pub get
+flutter run
