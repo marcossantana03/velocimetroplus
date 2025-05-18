@@ -37,9 +37,9 @@ Ele foi pensado para quem quer entender de verdade a qualidade da sua conexão a
 
 ## Prints do app
 
-| Tela Inicial | Testando | Contagem Regressiva | Histórico |
-|--------------|----------|----------------------|-----------|
-| ![](assets/screenshots/1.png) | ![](assets/screenshots/2.png) | ![](assets/screenshots/3.png) | ![](assets/screenshots/4.png) |
+| Tela Inicial                   | Testando | Contagem Regressiva | Histórico |
+|--------------------------------|----------|----------------------|-----------|
+| ![](assets/screenshots/1.jpeg) | ![](assets/screenshots/2.jpeg) | ![](assets/screenshots/3.jpeg) | ![](assets/screenshots/4.jpeg) |
 
 ---
 
