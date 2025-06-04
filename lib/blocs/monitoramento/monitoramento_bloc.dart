@@ -66,6 +66,10 @@ class MonitoramentoBloc extends Bloc<MonitoramentoEvent, MonitoramentoState> {
       return;
     }
 
+    if (_speedTest.isTestInProgress()) {
+      await _speedTest.cancelTest();
+    }
+
     _iniciarTesteVelocidade();
   }
 
